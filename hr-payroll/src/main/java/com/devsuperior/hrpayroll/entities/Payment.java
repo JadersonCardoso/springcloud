@@ -1,9 +1,8 @@
-package com.devsuperior.hrpayroll.entetities;
+package com.devsuperior.hrpayroll.entities;
 
 import java.io.Serializable;
 
 public class Payment implements Serializable {
-
 
     private String name;
     private Double dailyIncome;
@@ -45,4 +44,6 @@ public class Payment implements Serializable {
     public double getTotal(){
         return days * dailyIncome;
     }
+
+
 }

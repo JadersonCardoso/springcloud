@@ -1,4 +1,4 @@
-package com.devsuperior.hrpayroll.entetities;
+package com.devsuperior.hrpayroll.entities;
 
 import java.io.Serializable;
 
@@ -40,4 +40,5 @@ public class Worker implements Serializable {
     public void setDailyInCome(Double dailyInCome) {
         this.dailyInCome = dailyInCome;
     }
+
 }
